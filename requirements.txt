@@ -1,4 +1,4 @@
-﻿Numpy
-Pandas
-Scrikit-learn
+﻿numpy
+pandas
+srikit-learn
 joblib
