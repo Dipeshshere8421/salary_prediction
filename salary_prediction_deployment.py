@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load("salary_prediction_rfr_model (1).pkl")
-encoder = joblib.load("label_encoder_salary.pk1")
+encoder = joblib.load("encoder.pkl")
 
 st.title("Salary_prediction_model")
 age = st.number_input("Enter your age", 18,65)
