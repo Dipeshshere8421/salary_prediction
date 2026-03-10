@@ -24,12 +24,12 @@ experience = st.number_input("Enter your experience(in years)",0,50)
 
 
 df = pd.DataFrame({
-    "Enter your age":[age],
-    "select your gender":["gender"],
-    "select your education":["education"],
-    "select your job_title":["job_title"],
+    "Age":[age],
+    "Gender":["gender"],
+    "Education Level":["education"],
+    "Job Title":["job_title"],
 
-    "Enter your experience(in years)":["experience"]
+    "Experience":["experience"]
 })
 
 if st.button("predict salary"):
